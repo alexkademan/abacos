@@ -6,14 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Smart Living HG About Us
-email: alex@designbymodus.com
+title: Abocos Vacation Rental Condo
+email: jennifer@designbymodus.com
 description: > # this means to ignore newlines until "baseurl:"
-  This page is a prototype for the eventual About Us section of smartlivinghg.com
+  This page is a prototype for the eventual live website to promote the rental condo in the Bahamas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://192.168.1.110/~Alex/jekyll/smartliving_about_us/_site" # the base hostname & protocol for your site
-twitter_username: alexkademan
-github_username:  alexkademan
+url: "http://192.168.1.110/~Alex/jekyll/abacos/_site" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
