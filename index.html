@@ -29,5 +29,15 @@ layout: default
 
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-  {{ content }}
+  <!-- {{ content }} -->
+
+
+  {% for post in site.posts %}
+    {% if post.category == "location" %}
+
+      <h1>{{ post.title }}</h1>
+      {{ post.content }}
+
+    {% endif %}
+  {% endfor %}
 </div>
