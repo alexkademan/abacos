@@ -17,11 +17,10 @@ module.exports = Backbone.View.extend({
 
     $('html, body').animate(
       {
-        // scrollTop: this.$el.offset().top
         scrollTop: target.offset().top
       },
       {
-        duration: 2000
+        duration: 1200
         ,easing: "easeOutExpo"
         // ,easing: "easeInOutBounce"
       }

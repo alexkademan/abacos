@@ -4,17 +4,17 @@
   {% include head.html %}
 
   <body>
+    <div class="outer">
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <div id="page-content" class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div id="page-content" class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
+
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
-
   </body>
   <script src="{{ site.url }}/js/bundle.js" type="text/javascript"></script>
 </html>

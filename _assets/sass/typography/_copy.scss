@@ -1,0 +1,36 @@
+
+body {
+  // color: darken($color-tan, 70%);
+}
+
+p {
+  display: block;
+  // float: left;
+  // clear: left;
+  padding: 0 0 1em;
+}
+sub,
+sup {
+  font-size: 0.4em;
+  baseline-shift: super;
+  vertical-align: 0.75em
+}
+.italic {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+a.link {
+  text-decoration: underline;
+}
+
+// main navigation:
+nav.mn div.block li.top > a {
+  font-size: 18px;
+  letter-spacing: -0.05em;
+}
+.post-content {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
