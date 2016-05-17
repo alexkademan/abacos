@@ -4,6 +4,8 @@ title:  "Treasure Cay"
 scroll-id: "treasure-cay"
 date:   2016-05-11 10:51:08 -0500
 category: location
+map-coord-x: '67'
+map-coord-y: '30'
 ---
 [Treasure Sands Restaurant / Bar][treasure-sands] – Located just outside of Treasure Cay Gates, so you’ll need a driver or use a golf cart. Fine dining with a great menu – a really beautiful location with a great view. Dress is evening casual to dressy – your choice. Bring your swim suit there’s an awesome pool!
 

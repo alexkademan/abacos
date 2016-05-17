@@ -9,7 +9,7 @@
 title: Abacos Vacation Rental Condo
 email: jennifer@designbymodus.com
 description: > # this means to ignore newlines until "baseurl:"
-  This page is a prototype for the eventual live website to promote the rental condo in the Bahamas.
+  This page is a prototype for the eventual live website to promote a rental condo in the Bahamas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://192.168.1.110/~Alex/jekyll/abacos/_site" # the base hostname & protocol for your site
 

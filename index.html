@@ -1,40 +1,47 @@
 ---
-layout: default
+layout: locations
 ---
 
-<div class="home">
-  <nav id="top" class="main-nav">
-  {% for post in site.posts %}
-    {% if post.category == "location" %}
+<nav class="location-page">
+{% for post in site.posts %}
+  {% if post.category == "location" %}
 
-      <h2>
-      {% if post.scroll-id %}
-        <a class="scroll" href="#{{ post.scroll-id }}">{{ post.title }}</a>
+    <h2>
+    {% if post.scroll-id %}
+      <a class="scroll" href="#{{ post.scroll-id }}">{{ post.title }}</a>
 
-      {% else %}
-        <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-
-      {% endif %}
-      </h2>
-
+    {% else %}
+      <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
 
     {% endif %}
-  {% endfor %}
-  </nav>
+    </h2>
 
-  {% for post in site.posts %}
-    {% if post.category == "location" %}
+  {% endif %}
+{% endfor %}
+</nav>
 
-      {% if post.scroll-id %}
-        <h1 id="{{ post.scroll-id }}" class="{{ post.scroll-id }}">{{ post.title }}</h1>
-        <a class="scroll" href="#top">back to top</a>
-      {% else %}
+<div class="site-locations">
+{% for post in site.posts %}
+  {% if post.category == "location" %}
+
+  <span id="{{ post.scroll-id }}-top" class="signpost"></span>
+    {% if post.scroll-id %}
+      <div id="{{ post.scroll-id }}" class="location">
+        <h1 class="{{ post.scroll-id }}">{{ post.title }}</h1>
+    {% else %}
+      <div class="location">
         <h1>{{ post.title }}</h1>
 
-      {% endif %}
-
-      {{ post.content }}
-
     {% endif %}
-  {% endfor %}
+
+    {% if post.map-coord-x and post.map-coord-y %}
+      {% include location-map.html %}
+    {% endif %}
+
+    {{ post.content }}
+    <a class="" href="#{{ post.scroll-id }}-top">More &uarr;</a>
+  </div>
+
+  {% endif %}
+{% endfor %}
 </div>

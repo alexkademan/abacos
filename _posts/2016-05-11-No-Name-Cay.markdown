@@ -4,6 +4,8 @@ title:  "No Name Cay"
 scroll-id: "no-name-cay"
 date:   2016-05-11 10:51:08 -0500
 category: location
+map-coord-x: '70'
+map-coord-y: '27'
 ---
 Good time stop at a for hanging out with [the swimming pigs][pigs-fly]. They’re always hungry and assertive in getting food! Providing them with fresh water is always encouraged.
 

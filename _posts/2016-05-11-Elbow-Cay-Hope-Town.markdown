@@ -4,6 +4,8 @@ title:  "Elbow Cay / Hope Town"
 scroll-id: "elbow-cay"
 date:   2016-05-11 10:51:08 -0500
 category: location
+map-coord-x: '99'
+map-coord-y: '42.0'
 ---
 If you rent a boat we recommend stopping at [Tahiti Beach][tahiti]. Great spot to stop and hang out on the sand bar.
 

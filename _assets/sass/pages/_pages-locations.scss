@@ -1,0 +1,65 @@
+nav.location-page {
+  // display: block;
+  position: fixed;
+  background-color: #FCF;
+  // z-index: -1;
+  left: 0;
+  top: 0;
+}
+div.location {
+  padding: ($gutter * 0.5);
+  border: 1px #000 solid;
+  background: rgba(255, 255, 255, 0.95);
+  margin-left: 100%;
+  clear:both;
+  @include span-columns(12);
+}
+span.signpost {
+  display: block;
+  float:left;
+  clear: both;
+  width: 0;
+  height: pem(225);
+  background-color: #FCF;
+  // @include span-columns(12);
+}
+div.site-locations {
+  display: block;
+  float: left;
+  clear: left;
+  width: 100%;
+  margin-left: -100%;
+  overflow: visible;
+  // background: rgba(15, 15, 15, 0.5);
+  position: relative;
+}
+div.site-footer {
+  clear: both;
+}
+
+
+div.location-map {
+  position: relative;
+  @include span-columns(12 of 12);
+  overflow: hidden;
+
+  span.marker {
+    // display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: pem(15);
+    height: pem(15);
+    background: #FCF;
+    @include rounded(50%);
+  }
+  em {
+    position: absolute;
+    // margin-top: pem(18);
+    width: pem(80);
+    left: -(pem(40));
+    top: pem(17);
+    text-align: center;
+    // background: rgba(45, 45, 45, 0.5)
+  }
+}
