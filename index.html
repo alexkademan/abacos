@@ -1,47 +1,17 @@
 ---
-layout: locations
+layout: default
 ---
+<div class="home">
 
-<nav class="location-page">
-{% for post in site.posts %}
-  {% if post.category == "location" %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta serif_scitalic">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <h2>
-    {% if post.scroll-id %}
-      <a class="scroll" href="#{{ post.scroll-id }}">{{ post.title }}</a>
-
-    {% else %}
-      <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-
-    {% endif %}
-    </h2>
-
-  {% endif %}
-{% endfor %}
-</nav>
-
-<div class="site-locations">
-{% for post in site.posts %}
-  {% if post.category == "location" %}
-
-  <span id="{{ post.scroll-id }}-top" class="signpost"></span>
-    {% if post.scroll-id %}
-      <div id="{{ post.scroll-id }}" class="location">
-        <h1 class="{{ post.scroll-id }}">{{ post.title }}</h1>
-    {% else %}
-      <div class="location">
-        <h1>{{ post.title }}</h1>
-
-    {% endif %}
-
-    {% if post.map-coord-x and post.map-coord-y %}
-      {% include location-map.html %}
-    {% endif %}
-
-    {{ post.content }}
-    <a class="" href="#{{ post.scroll-id }}-top">More &uarr;</a>
-  </div>
-
-  {% endif %}
-{% endfor %}
 </div>

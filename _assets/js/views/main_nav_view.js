@@ -9,7 +9,7 @@ var MainMenuHeight = require('./main_nav_heigt_view');
 
 module.exports = Backbone.View.extend({
 
-  el: '#site_header',
+  el: '#site-header',
 
   events: {
     'click a.toggle': 'toggleMenu'
@@ -73,7 +73,7 @@ module.exports = Backbone.View.extend({
 
     if( app.windowStatus.get('palmSize') === true ){
       // Make the Palm Sized Layout
-      console.log('make palm size');
+      // console.log('make palm size');
       app.mainMenuHeight.closeDown();
 
     } else {

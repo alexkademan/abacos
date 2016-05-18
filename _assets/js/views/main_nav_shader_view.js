@@ -8,13 +8,9 @@ module.exports = Backbone.View.extend({
   el: '#mobile_shader',
 
   events: {
-    'click': function(e) {
-      app.mainNav.closeMenus();
+    'click': function() {
+      app.mainNavModel.set({'mobileMenu' : false });
     }
-  },
-
-  clickScreen: function(e) {
-    console.log(e.target.className);
   },
 
   openShader: function() {

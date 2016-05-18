@@ -1,2 +1,2 @@
-# abacos
-Promotional website for a rental property in the Bahamas. Built using Jekyll.
+# my-blog
+Jekyll build of a website to be used as my personal website.
