@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: locations-page
 title: Destinations
 permalink: /destinations/
 ---

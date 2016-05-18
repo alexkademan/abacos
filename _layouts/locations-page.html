@@ -10,10 +10,9 @@ layout: default
     {{ content }}
   </div>
 
-  <ul class="post-list">
-  {% for post in site.posts %} {{ post.category }}
+  <ul class="post-list destinations">
+  {% for post in site.posts %}
   {% if post.category == 'location' %}
-
     <li>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>

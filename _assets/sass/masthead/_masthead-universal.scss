@@ -23,25 +23,13 @@ header.site-header {
       background-repeat: no-repeat;
     }
     span.logo {
-      background-image: url('../images/ak_logo.png');
+      background-image: url('../images/palm-trees.png');
     }
 
-  }
-
-  .no-touchevents & a.site-title:hover {
-    span.bg {
-      opacity: 0.8;
-    }
   }
 
   nav.site-nav {
-    // text-transform: uppercase;
-    color: darken($color_purple, 10%);
     font-size: 1.5em;
   }
 
 }
-
-@-moz-keyframes rotation { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes rotation { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes rotation { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
