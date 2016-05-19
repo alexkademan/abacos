@@ -1,5 +1,6 @@
 
 @import 'pages-universal';
+@import 'pages-locations';
 @include media($medium) {
   @import 'pages-medium';
 }

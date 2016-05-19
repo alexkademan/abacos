@@ -35,7 +35,7 @@ nav.site-nav > ul {
     @include transition(color 0.25s ease-in-out);
     .no-touchevents &:hover {
       // background: transparent;
-      color: $color_orange;
+      color: blue;
       @include transition(color 0.25s ease-in-out);
     }
   }
