@@ -3,7 +3,7 @@ layout: location
 title:  "Treasure Cay"
 scroll-id: "treasure-cay"
 date:   2016-05-11 10:51:08 -0500
-category: location
+categories: location
 map-coord-x: '67'
 map-coord-y: '30'
 ---

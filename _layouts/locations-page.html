@@ -14,7 +14,7 @@ layout: default
     <img src="{{ site.url }}/images/grand-abaco-01.svg" />
 
     {% for post in site.posts %}
-    {% if post.category == 'location' %}
+    {% if post.categories contains 'location' %}
       {% if post.map-coord-x && post.map-coord-y %}
       <a href="{{ post.url | prepend: site.url }}">
         <span class="marker all" style="left: {{ post.map-coord-x }}%; top:{{ post.map-coord-y }}%">
@@ -29,7 +29,8 @@ layout: default
 
   <ul class="post-list destinations">
   {% for post in site.posts %}
-  {% if post.category == 'location' %}
+  {% if post.categories contains 'location' %}
+
     <li>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>

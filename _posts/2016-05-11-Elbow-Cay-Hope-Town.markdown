@@ -3,7 +3,7 @@ layout: location
 title:  "Elbow Cay / Hope Town"
 scroll-id: "elbow-cay"
 date:   2016-05-11 10:51:08 -0500
-category: location
+categories: location
 map-coord-x: '99'
 map-coord-y: '42.0'
 ---
