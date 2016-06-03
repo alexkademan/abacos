@@ -1,12 +1,7 @@
-header.site_header span.toggle_menu {
-  @include hidden;
-}
-
 nav.site-nav {
   display: block;
-  float: right;
+  float: left;
   clear: none;
-  // margin: 0 0 0 pem(10);
   margin: 0;
   padding: 0;
 }
@@ -18,23 +13,21 @@ nav.site-nav > ul {
   width: auto;
 
   display: block;
-  float: left;
-  clear: none;
-  padding-right: 0.75em;
+
+  background-color: #FCF;
 
   li,
   li a {
     clear: none;
     width: auto;
     color: #000;
+    font-size: 0.85em;
   }
   li a {
-    font-size: 1em;
-    padding: ($main_gutter * 1) 0.25em;
-    // background: rgba(255,255,255, 0.2);
+    padding: ($main_gutter * 0.25) 0.25em;
     @include transition(color 0.25s ease-in-out);
+
     .no-touchevents &:hover {
-      // background: transparent;
       color: blue;
       @include transition(color 0.25s ease-in-out);
     }

@@ -1,22 +1,22 @@
-header.site-header {
+div.layout > header {
+  background: #F4F4F4;
+
   div.outside {
     @include outer-container;
   }
 
-  a.site-title {
+  a.logo {
     position: relative;
     display: block;
     float: left;
     clear: none;
-
     top: auto;
     left: auto;
-
     width: pem(120);
-    height: pem(120);
-
+    height: pem(80);
     margin-top: -0.4em;
     margin-left: $main_gutter;
+    // background-color: #000;
   }
 
   span.toggle-menu {

@@ -36,8 +36,8 @@ layout: default
     {% endif %}
 {% endfor %}
 {% if prev_post %}
-    <a class="prev" href="{{ site.url }}{{ prev_post }}">&laquo; {{ prev_post_title }}</a>
+    <a class="prev" href="{{ site.url }}{{ prev_post }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ prev_post_title }}</a>
 {% endif %}
 {% if next_post %}
-    <a class="next" href="{{ site.url }}{{ next_post }}">{{ next_post_title }} &raquo;</a>
+    <a class="next" href="{{ site.url }}{{ next_post }}">{{ next_post_title }} <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 {% endif %}

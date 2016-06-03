@@ -14,15 +14,15 @@ layout: default
     <img src="{{ site.url }}/images/grand-abaco-01.svg" />
 
     {% for post in site.posts %}
-    {% if post.categories contains 'location' %}
-      {% if post.map-coord-x && post.map-coord-y %}
-      <a href="{{ post.url | prepend: site.url }}">
-        <span class="marker all" style="left: {{ post.map-coord-x }}%; top:{{ post.map-coord-y }}%">
-          <em>{{ post.title }}</em>
-        </span>
-      </a>
+      {% if post.categories contains 'location' %}
+        {% if post.map-coord-x && post.map-coord-y %}
+        <a href="{{ post.url | prepend: site.url }}">
+          <span class="marker all" style="left: {{ post.map-coord-x }}%; top:{{ post.map-coord-y }}%">
+            <em>{{ post.title }}</em>
+          </span>
+        </a>
+        {% endif %}
       {% endif %}
-    {% endif %}
     {% endfor %}
 
   </div>

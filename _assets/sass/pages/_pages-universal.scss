@@ -1,0 +1,12 @@
+/* post pagination */
+a.prev,
+a.next {
+  display: block;
+  float: left;
+  clear: none;
+  width: 50%;
+}
+a.next {
+  float: right;
+  text-align: right;
+}
