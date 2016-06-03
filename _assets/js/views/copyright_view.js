@@ -10,8 +10,8 @@ module.exports = Backbone.View.extend({
   initialize: function() {
     var today = new Date(),
          year = today.getFullYear();
-         
-    this.$el.html( year + ' ' );
+
+    this.$el.html( year );
   }
 
 });

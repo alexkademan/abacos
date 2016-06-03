@@ -2,6 +2,8 @@
 layout: locations-page
 title: Destinations
 permalink: /destinations/
+nav_order: 10
+hidden_in_main_nav: false
 ---
 {::options auto_ids="false" /}
 

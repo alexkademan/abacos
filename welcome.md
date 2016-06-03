@@ -2,6 +2,8 @@
 layout: welcome
 title: Welcome
 permalink: /
+nav_order: 0
+hidden_in_main_nav: true
 ---
 
 # Welcome!
@@ -19,3 +21,4 @@ Enjoy your stay! Bill & Jenny Raninen
 There’s a lot you won’t need to pack. For your convenience we have; blow dryers, beach towels, extra shampoos, soap, lotions, books, magazines, games etc. The kitchen is stocked with everything you need to prepare meals, bedding, air mattresses, a beach wagon for hauling to and from beach, beach umbrella and lots more! If you are wondering about anything else just give us a call.
 
 There’s a lot you won’t need to pack. For your convenience we have; blow dryers, beach towels, extra shampoos, soap, lotions, books, magazines, games etc. The kitchen is stocked with everything you need to prepare meals, bedding, air mattresses, a beach wagon for hauling to and from beach, beach umbrella and lots more! If you are wondering about anything else just give us a call.
+{: .callout}
