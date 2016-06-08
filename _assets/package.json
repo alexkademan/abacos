@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "author": "Alex Kademan",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "backbone": "^1.2.3",
     "browserify": "^13.0.0",
