@@ -1,9 +1,9 @@
 
 @import 'pages-universal';
 @import 'pages-locations';
-@include media($medium) {
+@media($medium-breakpoint) {
   @import 'pages-medium';
 }
-@include media($large) {
+@media($large-breakpoint) {
   // @import 'pages-large';
 }

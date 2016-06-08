@@ -1,8 +1,18 @@
 
+// @import 'basics-universal';
+// @include media($medium) {
+//   @import 'basics-medium';
+// }
+// @include media($large) {
+//   @import 'basics-large';
+// }
+
+
+
 @import 'basics-universal';
-@include media($medium) {
+@media($medium-breakpoint) {
   @import 'basics-medium';
 }
-@include media($large) {
+@media($large-breakpoint) {
   @import 'basics-large';
 }

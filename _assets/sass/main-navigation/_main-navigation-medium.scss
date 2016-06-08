@@ -25,11 +25,11 @@ nav.site-nav > ul {
   }
   li a {
     padding: ($main_gutter * 0.25) 0.25em;
-    @include transition(color 0.25s ease-in-out);
+    transition: color 0.25s ease-in-out;
 
     .no-touchevents &:hover {
       color: blue;
-      @include transition(color 0.25s ease-in-out);
+      transition: color 0.25s ease-in-out;
     }
   }
 }
