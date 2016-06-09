@@ -25,7 +25,7 @@ span.toggle-menu {
 
   .line {
   	position: relative;
-  	background: $color-orange;
+  	background: $color-blue;
   	height: 3px;
   	width: 32px;
   	border-radius: 3px;
@@ -52,7 +52,7 @@ html.main_nav_on span.toggle-menu { // when the menu is showing:
     height: pem(50);
     margin-left: pem(4);
     margin-top: pem(6);
-    background-color: $color-orange;
+    background-color: $color-blue;
     transition: all 0.4s ease-in-out;
   }
 

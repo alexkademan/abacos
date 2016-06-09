@@ -23,6 +23,11 @@
 
     </div>
     <span id="mobile_shader" class="mobile_shader"></span>
+
+    {% if page.layout == 'welcome' %}
+      {% include googleMapJS.html %}
+      {% include googleMapStyled.html %}
+    {% endif %}
   </body>
 
 </html>

@@ -7,6 +7,6 @@ hidden_in_main_nav: false
 ---
 {::options auto_ids="false" /}
 
-this is all the loacations worth seeing on your stay in the Bahamas.
+Here are a few of the destinations worth seeing during your stay in the Bahamas.
 
 <!-- \* at gun point. -->

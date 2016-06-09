@@ -1,6 +1,6 @@
-// @include font-face( 'sans_light', 'fonts/antonio-light-webfont' );
-// @include font-face( 'not-sans-regular', 'fonts/librebaskerville-regular-webfont' );
-// @include font-face( 'not_sans_italic', 'fonts/librebaskerville-italic-webfont' );
+@include font-face( 'lobster', 'fonts/lobster_1.3-webfont' );
+@include font-face( 'raleway-medium', 'fonts/raleway-medium-webfont' );
+@include font-face( 'raleway-medium-italic', 'fonts/raleway-mediumitalic-webfont' );
 
 @import "copy";
 @import "headings";

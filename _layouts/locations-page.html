@@ -32,9 +32,8 @@ layout: default
   {% if post.categories contains 'location' %}
 
     <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-      </h2>
+      <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+
     </li>
   {% endif %}
   {% endfor %}

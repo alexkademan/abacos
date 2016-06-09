@@ -3,21 +3,14 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-
-
-$color-orange: rgb(254, 71, 57);
-$color-red: rgb(203, 18, 76);
-$color-pink: rgb(255, 53, 180);
-$color-tan: rgb(234, 234, 206);
-$color-purple: rgb(98, 49, 130);
-// $color-blue: rgb(121, 254, 251);
-$color-blue: rgb(147, 213, 223);
-$color-green: rgb(35, 255, 207);
-
-
+$base-font-color: #FCF;
 $color-page-bg: #FFF;
+
+// BAHAMAS colors:
+$color-blue: rgb(0, 175, 219); // #00AFDB
+$color-orange: rgb(251, 176, 52); // #FBB034
+$color-green: rgb(122, 193, 67); // #7AC143
